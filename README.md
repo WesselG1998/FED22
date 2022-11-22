@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepagina 
-  <img src="readme-images/hoofdpagina.png" width="375px" alt="Homepagina Ajax">
+  <img src="readme-images/homepagina.png" width="375px" alt="Homepagina Ajax">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
