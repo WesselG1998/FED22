@@ -59,27 +59,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Bij mijn AJAX heb je 2 focussen. Verder werken alle links. Enige wat mij opviel was dat ie voor alle andere links als eerste de chatbot laat selecteren.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Alle klikbare elementen zijn ook daadwerkelijk klikbaar en hebben hovers. Dit is ook te navigeren met tab, alleen zie je dan niet waar je bent, je kunt alleen linksonderin zien waar je bent.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Website is met eerste standje (parkinson) prima te besturen, niet heel prettig, maar scrollen gaat makkelijk, klikken iets moeilijker. Je moet er wel geduld voor hebben.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met elastieken om je vinger ondervind ik geen last. Voelt niet prettig, maar alles is zelfde manier te besturen.
+
+  Ballon hooghouden is vervelend, vereist wat oefening, maar de knoppen zijn groot genoeg om te besturen. 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met elke bril is het lastiger te bedienen. Met de brillen dat je zicht wazig wordt kan het nog wel normaal bedienen. Kost alleen wat meer moeite.
+  Met de bril waar het oppervlakte van je zicht beperkt wordt moet je constant je hoofd bewegen om te kunnen zien waar je naar toe navigeert.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hieronder volgen alle verschillende soorten kleurenblindheid in combinatie met ajax.nl. Voor het gebruik is dit allemaal goed ontworpen. Kleuren veranderen uiteraard maar er blijft ten alle tijde genoeg contrast. Alleen bij volledig zwartwit zie je de hovers niet goed bij sommige linkjes, te weinig onderscheid.
+
+  <img src="readme-images/normaal.png" width="375px" alt="Normaal">
+  <img src="readme-images/kleurenblind1.png" width="375px" alt="Kleurenblind">
+  <img src="readme-images/kleurenblind2.png" width="375px" alt="Kleurenblind">
+  <img src="readme-images/kleurenblind3.png" width="375px" alt="Kleurenblind">
+  <img src="readme-images/kleurenblind4.png" width="375px" alt="Kleurenblind">
+  <img src="readme-images/kleurenblind5.png" width="375px" alt="Kleurenblind">
+  <img src="readme-images/kleurenblind6.png" width="375px" alt="Kleurenblind">
+  <img src="readme-images/kleurenblind7.png" width="375px" alt="Kleurenblind">
+  <img src="readme-images/kleurenblind8.png" width="375px" alt="Kleurenblind">
+
+Er verandert niks met darkmode.
 
 </details>
 
@@ -117,11 +130,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+   | Menno:
+
+  | Vraag over CSS grid, een button blijft niet binnen het grid, standaard styling van
+
+  | de button blijft groter
+
+  | Hilal:
+
+  | Vraag over de breakdown schets
+
+  | Laiba:
+
+  | vraag over font
+
+  | css bestanden
+
+  | vraagje over een html element (pijltjes)
+
+  | Wessel:
+
+  | Vraag over wanneer je grid gebruikt en wanneer flexbox
 
 
   ### Verslag van meeting
@@ -148,14 +177,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Hilal:
+  Vraag 1: Doe ik de fontface goed op deze manier?
+  Vraag 2: Vind een carousel starten lastig, vooral als je bij het swipen de nummers ziet veranderen zoals op mijn site. Hoe kan ik dit het beste aanpakken en heb ik hier javascript voor nodig?
+  Vraag 3: Een stukje van me hamburger menu gaat mee bij het scrollen, waardoor komt dit?
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Menno:
+  Vraag 1: ik heb een vraag over het semantisch maken van mijn HTML, mijn CSS luistert niet en ik weet niet hoe het komt.
 
+  Laiba:
+  vraag 1 (formulieren):
+  Formulieren, hoe moet je erin verwerken?
+  Mag ik het verstoppen?  
+  (Surface plane)
+  vraag 2 (img):
+  3 images kan ik nergens vinden (inspect network)
+  Vraag 3 (hamburger menu):
+  ik zie naast de hamburger menu icon mijn andere icons niet
+
+  Wessel:
+  Vraag 1: Hamburger menu openen lukt, maar weer sluiten lukt niet. Hoe komt dit?
+  Vraag 2: Display flex items plaatsen hoe ik wil zonder, losse items van space between
+  Vraag 3: Hoe ontwerp je het kruisje dat input form leegt?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen

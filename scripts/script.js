@@ -1,44 +1,20 @@
 // JavaScript Document
+console.log("hi");
 
-var carouselSlide = document.querySelector('.carousel-slide');
-//console.log(carouselSlide);
-var carouselImages = document.querySelectorAll('.carousel-slide img');
-//console.log(carouselImages);
+var deMenuButton = document.querySelector("header button:last-of-type");
+var deNav = document.querySelector("header nav");
+var deSluitButton = document.querySelector ("header nav button");
+var deSearchButton = document.querySelector("header > button:first-of-type");
+var deZoekbalk = document.querySelector("header form");
 
-// buttons
-var prevBtn = document.querySelector('#prevBtn');
-var nextBtn = document.querySelector('#nextBtn');
+deMenuButton.addEventListener("click", toggleHetMenu);
+deSluitButton.addEventListener("click", toggleHetMenu);
+deSearchButton.addEventListener("click", toggleDeZoekbalk);
 
-// counter
-let counter = 1;
-var size = carouselImages[0].clientWidth;
+function toggleHetMenu() {
+	deNav.classList.add("open");
+}
 
-carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-
-// Button listeners
-nextBtn.addEventListener('click', () => {
-    if (counter >= carouselImages.length -1) return;
-    carouselSlide.style.transition = "transform 0.4 ease-in-out";
-    counter++;
-    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-});
-
-prevBtn.addEventListener('click', () => {
-    if (counter <= 0) return
-    carouselSlide.style.transition = "transform 0.4 ease-in-out";
-    counter--;
-    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-});
-
-carouselSlide.addEventListener('transitionend', () => {
-    if (carouselImages[counter].id === 'lastClone') {
-        carouselSlide.style.transition = "none"
-        counter = carouselImages.length -2 ;
-        carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)'
-    }
-    if (carouselImages[counter].id === 'firstClone') {
-        carouselSlide.style.transition = "none"
-        counter = carouselImages.length - counter;
-        carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)'
-    }
-});
+function toggleDeZoekbalk() {
+    deZoekbalk.classList.add("open");
+}

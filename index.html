@@ -1,56 +1,43 @@
 <!doctype html>
 <html lang="nl">
-
+	
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Wessel Glansbeek">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>De snelste en meest complete voetbalwebsite</title>
-    <link href="styles/style.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="author" content="Wessel Glansbeek">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Ajax</title>
+	
+	<link href="styles/style.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
+	<header><a href="">Ajax</a>
+	<button>search</button>
+<button>menu</button>
 
-    <header>
-        <img src="images/Schermafbeelding%202020-11-25%20om%2014.40.38.png" alt="logo">
-        <input type="search" placeholder="Zoeken...">
-        <button>Mijn VP</button>
-        <nav>
+<nav>
+	<button>Sluit</button>
+	<ul>
+		<li><a href="">Teams</a></li>
+		<li><a href="">Club</a></li>
+		<li><a href="">Fans</a></li>
+		<li><a href="">Fanshop</a></li>
+		<li><a href="">Tickets</a></li>
+	</ul>
+</nav>
 
-            <ul>
-                <li><a href="">Nieuws</a></li>
-                <li><a href="">Livescores</a></li>
-                <li><a href="">In beeld</a></li>
-                <li><a href="">Competities</a></li>
-                <li><a href="">Clubs</a></li>
-                <li><a href="">Spelers</a></li>
-                <li><a href="">Video's</a></li>
-            </ul>
+<form>
+	<input type="search">
+</form>
 
+</header>
+	<main></main>
 
-        </nav>
+	<footer></footer>
 
-
-    </header>
-    <main>
-        <div class="carousel-container">
-            <div class="carousel-slide">
-                <img class="slider" src="images/slider3.png" id="lastClone" alt="Christian Eriksen">
-                <img class="slider" src="images/fotoslider1.jpg" alt="Frank Arnesen">
-                <img class="slider" src="images/slider2.jpg" alt="Frenkie de Jong">
-                <img class="slider" src="images/slider3.png" alt="Christian Eriksen">
-                <img class="slider" src="images/fotoslider1.jpg" id="firstClone" alt="Frank Arnesen">
-            </div>
-        </div>
-
-        <button id="prevBtn">Prev</button>
-        <button id="nextBtn">Next</button>
-        <h2>Zaterdag - 26 december</h2>
-    </main>
-    <footer>
-
-    </footer>
-    <script src="scripts/script.js"></script>
+	<script defer src="scripts/script.js"></script>
 </body>
-
+	
 </html>
